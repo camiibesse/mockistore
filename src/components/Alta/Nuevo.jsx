@@ -2,9 +2,8 @@ import React from "react";
 
 const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,onChange, onSubmit, editarID }) => {
   return (
-    <div className="Ingreso">
+    <div class="mx-auto p-2">
       <form onSubmit={onSubmit}>
-        {/* ------- Campo nombre ------- */}
         <div className="form-group">
           <label htmlFor="nombre">nombre</label>
           <input
@@ -15,8 +14,6 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             onChange={onChange}
           />
         </div>
-
-        {/* ------- Campo precio ------- */}
         <div className="form-group">
           <label htmlFor="precio">precio</label>
           <input
@@ -27,8 +24,6 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             onChange={onChange}
           />
         </div>
-
-        {/* ------- Campo stock ------- */}
         <div className="form-group">
           <label htmlFor="stock">stock</label>
           <input
@@ -39,8 +34,6 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             onChange={onChange}
           />
         </div>
-
-        {/* ------- Campo marca ------- */}
         <div className="form-group">
           <label htmlFor="marca">marca</label>
           <input
@@ -51,8 +44,6 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             onChange={onChange}
           />
         </div>
-
-        {/* ------- Campo categoria ------- */}
         <div className="form-group">
           <label htmlFor="categoria">categoria</label>
           <input
@@ -63,8 +54,6 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             onChange={onChange}
           />
         </div>
-
-        {/* ------- Campo detalles ------- */}
         <div className="form-group">
           <label htmlFor="detalles">detalles</label>
           <input
@@ -75,8 +64,6 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             onChange={onChange}
           />
         </div>
-
-        {/* ------- Campo foto ------- */}
         <div className="form-group">
           <label htmlFor="foto">foto</label>
           <input
@@ -87,8 +74,6 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             onChange={onChange}
           />
         </div>
-
-        {/* ------- Campo envio ------- */}
         <div className="form-group form-check">
           <input
             type="checkbox"
@@ -97,10 +82,8 @@ const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,
             checked={envio}
             onChange={onChange}
           />
-          <label htmlFor="envio">envio</label>
+          <label htmlFor="envio">envío</label>
         </div>
-
-        {/* ----- botón de envío ------ */}
         <button
           
           className={`btn btn-${editarID ? "warning" : "success"} mt-3 mb-5`}

@@ -5,7 +5,7 @@ export const Tabla = (props) => {
 
   return (
     <div className="container">
-      <table className="tabla">
+      <table className="table-responsive">
         <thead>
           <tr>
             <th>#</th>

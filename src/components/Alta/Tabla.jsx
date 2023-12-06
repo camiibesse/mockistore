@@ -3,7 +3,7 @@ import React from "react";
 const Tabla = ({ productos, editar, borrar, editarID }) => {
   return (
 
-    <div className="Tabla">
+    <div className="container-sm">
 
     { productos.length === 0 && <h3 className='alert alert-danger'>No se encontraron productos</h3> }
 

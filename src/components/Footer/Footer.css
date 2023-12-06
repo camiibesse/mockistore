@@ -14,8 +14,8 @@ footer{
     align-items: center;
     flex-direction: column;
     background-color: var(--dark);
+    background-color: #000000;
     color: #fff;
-    background-color: #12121241;
     margin-top: auto;
 }
 
