@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { obtenerProductos } from "../Servicios/productos";
+import { obtenerProductos }  from "../Servicios/productos";
 import { Card } from "./Card";
 import { useLocalStorage } from '../Hooks/useLocalStore'
 
