@@ -20,7 +20,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer-content-container">
-              <span className="menu-title">legal</span>
+              <span className="menu-item-footer">Legal</span>
               <p className="menu-item-footer">
               Política de privacidad
               </p>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Nuevo = ({ nombre, precio, stock, marca, categoria, detalles, foto, envio,onChange, onSubmit, editarID }) => {
   return (
-    <div class="mx-auto p-2">
+    <div className="mx-auto p-2">
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="nombre">nombre</label>

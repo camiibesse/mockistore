@@ -30,6 +30,18 @@ nav h1{
 @media (max-width: 480px) {
     .container-icon{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+    nav h1{
+        padding: 5px;
+        font-size: 18px;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+    .nav-link img{
+        width: 30px;
+        height: 30px;
     }
   }

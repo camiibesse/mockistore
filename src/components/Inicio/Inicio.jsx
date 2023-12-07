@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { obtenerProductos }  from "../Servicios/productos";
 import { Card } from "./Card";
 import { useLocalStorage } from '../Hooks/useLocalStore'
+import './Inicio.css'
 
 export function Inicio() {
   const [productos, setProductos] = useState([]);
